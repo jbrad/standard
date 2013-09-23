@@ -1,0 +1,9 @@
+{
+	"registry": {
+		"search": [
+			"https://bower.herokuapp.com",
+			"http://packages.jasonbradley.me"
+		],
+		"directory" : "."
+	}
+}

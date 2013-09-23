@@ -1,0 +1,5 @@
+# generic files
+*~
+*.lock
+*.DS_Store
+*node_modules

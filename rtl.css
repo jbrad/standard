@@ -1,0 +1,388 @@
+/*
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ CONTENTS /\/\/\/\/\/\/\/\/\/\/\/\/\/\//\/\/\/\
+
+	1. Misc
+	2. Main Styles
+	3. Menu Navigation
+		-Header Menu
+		-nav social-icons
+		-Footer Menu
+	4. Posts
+		-post formats
+	5. Sidebar
+		-Widgets
+	6. Footer
+	7. IE8
+*/
+
+
+/* ------------------------------------------------------------------------ 1. Misc */
+
+.fl {
+	float: right;
+}
+
+.fr {
+	float: left;
+}
+
+.first { 
+	margin-left: 100% !important;
+	margin-right: 0 !important; 
+}
+
+.last {
+	margin-left: 0 !important;
+	margin-right: 100% !important;
+}
+
+.alignleft {
+	float: right;
+	margin: 0 0 10px 15px;
+}
+
+.alignright {
+	float: left;
+	margin: 0 15px 10px 0;
+}
+
+.aligncenter {
+	margin-left: auto !important; 
+	margin-right: auto !important; 
+}
+
+input[type="submit"]:hover {
+  background-position: 100% -15px;
+}
+
+.form-allowed-tags code { 
+	float: right; 
+}
+
+/* ------------------------------------------------------------------------ 2. Main Styles */
+
+#wrapper {
+	padding: 20px 0 40px;
+}
+
+#head-wrapper {
+	position: relative;
+}
+
+#hgroup { 
+	padding: 45px 0 20px; 
+	position: relative; 
+}
+
+#logo { 
+	float: right; 
+}
+
+#header-widget { 
+	float: left; 
+}
+
+/* ------------------------------------------------------------------------ 3. Menu Navigation */
+
+.menu-header-container { 
+	float: right;
+}
+
+.menu-header-container .nav,
+.menu .nav {
+	float: right;
+}
+
+#social-networking {
+	float: left;
+}
+
+.topbar .social-icons {
+	float: left;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.topbar .social-icons > li a {
+	margin: 12px 20px 6px 0;
+}
+
+#header.imageyup #logo {
+	padding-right: 40px;
+}
+
+#top-ad.imageyup {
+	float: left;
+}
+
+#footer-links {
+	float: right;
+}
+
+#sub-floor #credit {
+	float: left;
+}
+
+/* ------------------------------------------------------------------------ 4. Posts */
+
+.entry-content .wp-caption.alignleft {
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+.entry-content .wp-caption.alignright {
+	margin-right: 15px;
+	margin-left: 0;
+}
+
+.post-meta .the-category {
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+.post-meta .the-tags {
+	background: url(images/icn-tags.png) no-repeat 100% 0;
+	padding-right: 20px;
+	padding-left: 0;
+}
+
+.post-meta .the-comment-link {
+	float: left;
+}
+
+.post-meta .post-link {
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+.entry-content ol,
+.entry-content ul {
+	margin: 0 25px 9px 0 !important;	
+}
+
+blockquote {
+	padding: 0 15px 0 0;
+	border-right: 5px solid #eee;
+	border-left: 0;
+	text-align: right;
+}
+
+/* Post Format Video */
+
+.format-video p, .format-video h1, .format-video h2, .format-video h3, .format-video blockquote  {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* Post format Status */
+
+.post.format-status .post-avatar {
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+.post.format-status .post-header .entry-content {
+	float: left;
+	margin-left: -10px;
+}
+
+/* Post format Quote */
+
+.post.format-quote .post-header {
+	background-image: url(images/bg-quote-rtl.png);
+	background-position: right bottom;
+}
+
+.post.format-quote .post-header .entry-content {
+	padding-right: 80px;
+	padding-left: 0;
+	background-image: url(images/icn-quote-dark-rtl.png);
+	background-position: right top;
+}
+
+.post.format-quote .the-comment-link {
+	float: left;
+}
+
+/* Post format Link */
+
+.post.format-link .post-header .entry-content {
+	padding-right: 80px;
+	padding-left: 0;
+	background-position: right top;
+}
+
+.post.format-link .the-comment-link {
+	float: left;
+}
+
+/* Post Pagination */
+
+#single-post-nav .previous-page {
+	margin-left: 0;
+	text-align: left;
+}
+
+#single-post-nav .next-page {
+	text-align: right;
+	margin-left: 20px;
+}
+
+/* Post Author Box */
+
+.author-box-image {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+/* Other post styles */
+
+.home .sticky:before {
+	background: transparent url(images/sticky.png) no-repeat 100% 0;
+	left: auto;
+	right: -9px;
+}
+
+.home .sticky .post-header {
+	padding-left: 0;
+	padding-right: 60px;
+}
+
+/* Comments */
+
+#comments .comment-container .comment-entry {
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+/* Children Comments */
+
+/* 3rd level */
+#comments > ol > li > ul.children {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+#comments > ol > li > ul.children > li .comment-container {
+	border-right: 1px solid #eee;
+}
+
+/* 4th level */
+#comments > ol > li > ul > li > ul.children {
+	margin: 0 20px 0 0;
+}
+
+/* comment input */
+
+.pre-comment-avatar {
+	float: right;
+}
+
+.pre-comment-avatar.admin-avatar {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#commentform #comment-form-wrapper {
+	float: right;
+}
+
+#commentform #comment-form-avatar {
+	float: right;
+}
+
+#commentform #comment-form-wrapper #comment-form-elements,
+#commentform #comment-form-wrapper #comment-form-elements-full {
+	float: left;
+}
+
+#commentform .code {
+	margin-right: 34px;
+	margin-left: 0;
+}
+
+#commentform label {
+	text-align: right;
+}
+
+#commentform input[type="submit"] {
+	margin: 0 0 10px 12px;
+}
+
+.comment-notes, .comment-form-author, .comment-form-email, .comment-form-url, .comment-form-comment {
+	float: right;
+}
+
+
+/* ------------------------------------------------------------------------ 5. Sidebar */
+
+/* search widget */
+
+.widget_search label.screen-reader-text {
+	text-align: right;
+	padding-left: 5px;
+	padding-right: 0;
+}
+
+.widget_nav_menu ul.sub-menu {
+	border-right: 1px solid #E0E0E0;
+	border-left: 0;
+	padding-right: 5px;
+	padding-left: 0;
+}
+
+#footer-widgets .widget_nav_menu ul.sub-menu {
+	border-right-color: #999;
+}
+
+/* tabbed popularity widget */ 
+
+.tabbed-widget .tabs > li > a {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+/* width to adjust for tab numbers */
+
+.tabbed-widget a.latest-post-tn, .tabbed-widget a.popular-post-tn, .tabbed-widget a.latest-comment-tn {
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+/* WP-Cal widget */
+
+table#wp-calendar tfoot td#prev {
+	text-align: right;
+}
+
+table#wp-calendar tfoot td#next {
+	text-align: left;
+}
+
+/* ------------------------------------------------------------------------ 7. IE8 */
+
+#sub-floor #credit {
+	text-align: left;
+}
+
+#ie8 #menu-above-header .navbar-inner,
+#ie8 #menu-below-header .navbar-inner,{
+	float:right;
+}
+
+#ie8 .tiled-gallery-item a {
+	float: right;
+}
+		
+#ie8 .tiled-gallery-item a img {
+	width: auto;
+} // img
+
+/* Smartphones */
+@media (max-width: 768px) {
+
+	.post.format-status .post-header .entry-content {
+		float: none;
+	}
+}

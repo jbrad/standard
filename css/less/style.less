@@ -1,0 +1,93 @@
+/*!
+Theme Name: Standard
+Theme URI: http://standardtheme.com
+Version: 3.3.5
+Description: Standard is a sleek, exacting product designed for uncluttered and sophisticated presentation of your content on desktop and mobile devices.
+Tags: blog, professional, clean, minimal, simple, black, white, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, responsive-width, custom-background, custom-header, custom-menu, editor-style, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, translation-ready
+Author: 8BIT
+Author URI: http://8BIT.io
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/*
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ CONTENTS /\/\/\/\/\/\/\/\/\/\/\/\/\/\//\/\/\/\
+
+	 1. Misc
+	 2. Typography
+	 3. Structure
+	 4. Navigation
+	 5. Header
+	 6. Posts
+	 7. Page templates
+	 8. Footer
+	 9. Widgets
+	10. Plugins
+	11. IE Styles
+*/
+
+
+/* ------------------------------------------------------------------------ 1. Misc */
+
+// Variables for colors and common elelments
+@import "variables.less";
+
+// mixins
+@import "mixins.less";
+
+@import "misc.less";
+
+// videopress post format hack
+@import "theme.videopress.less";
+
+/* ------------------------------------------------------------------------ 2. Typography */
+
+@import "typography.less";
+
+/* ------------------------------------------------------------------------ 3. Structure */
+
+@import "structure.less";
+
+/* ------------------------------------------------------------------------ 4. Navigation */
+
+@import "navigation.less";
+
+/* ------------------------------------------------------------------------ 5. Header */
+
+@import "header.less";
+
+/* ------------------------------------------------------------------------ 6. Posts */
+
+@import "posts.less";
+
+@import "author-box.less";
+
+// Comments and Pings
+@import "comments.less";
+
+/* ------------------------------------------------------------------------ 7. Page Templates */
+
+@import "pages.less";
+
+
+/* ------------------------------------------------------------------------ 8. Footer */
+
+@import "footer.less";
+
+/* ------------------------------------------------------------------------ 9. Widgets */
+
+@import "widgets.less";
+
+/* ------------------------------------------------------------------------ 10. Plugins */
+
+@import "../../lib/activity/css/less/widget.less";
+@import "../../lib/google-custom-search/css/less/widget.less";
+@import "../../lib/influence/css/less/widget.less";
+@import "../../lib/personal-image/css/less/widget.less";
+@import "../../lib/standard-ad-125x125/css/less/widget.less";
+@import "../../lib/standard-ad-300x250/css/less/widget.less";
+@import "../../lib/standard-ad-billboard/css/less/widget.less";
+
+/* ------------------------------------------------------------------------ 11. IE Styles */
+
+@import "ie-styles.less";

@@ -1,0 +1,186 @@
+//
+// Standard pages
+// @since v3.2
+//
+
+/* site map */
+
+h2#authors, h2#pages, h2#posts {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 35px;
+	border-bottom: 1px solid #eee;
+	background: url(./images/icn-sitemap.png) no-repeat;
+	background-position: 0 7px;
+	font-weight: normal;
+}
+
+h2#pages {
+	background-position: 0 -23px;
+}
+
+h2#posts {
+	background-position: 0 -52px;
+}
+
+.sitemap-author-meta {
+	position: relative;
+	margin-top: 5px;
+}
+
+.sitemap-author-meta > img {
+	padding: 5px;
+	border: 1px solid #eee;
+	background: #f9f9f9;
+}
+
+.sitemap-author-meta > span {
+	position: absolute;
+	top: -4px;
+	left: -4px;
+}
+
+ul#sitemap-posts {
+	margin-left: 0;
+}
+
+ul#sitemap-posts > li {
+	list-style: none;
+}
+
+ul#sitemap-posts > li h3 {
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+ul#sitemap-posts ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* search results */
+
+#cse-search-results iframe {
+	width: 100%;
+	height: 1080px;
+}
+
+/* offline page template */
+
+#offline-wrapper {
+	display: table;
+	overflow: hidden;
+	width: 100%;
+	height: 800px;
+	text-align: center;
+}
+
+#offline-container {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#offline-content {
+	position: relative;
+	top: -50%;
+}
+
+#offline-wrapper .offline-message {
+	margin: 20px 0 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#offline-wrapper .offline-message p {
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 1;
+}
+
+#offline-wrapper #offline-title {
+	font-size: 18px;
+}
+
+#offline-wrapper #offline-title small {
+	color: #888;
+	font-size: 14px;
+}
+
+/* ------------------------------------------------------------------------  404 page */
+
+body.error404 {
+	min-height: 800px;
+}
+
+#nothing-found {
+	padding: 40px 0 180px;
+	text-align: center;
+}
+
+#nothing-found h1 {
+	color: #000;
+	font-size: 8em;
+	line-height: 100%;
+}
+
+#nothing-found h1 span {
+	color: red;
+}
+
+#nothing-found label {
+	float: none;
+}
+
+/* ------------------------------------------------------------------------  Search/archive page */
+
+.archive-list-categories, .archive-list-pages {
+
+	li {
+		float: left;
+		display: block;
+		width: 48%;
+		line-height: 2;
+	}
+}
+
+.archive-list-posts {
+	margin-left: 0;
+	padding-left: 0;
+
+	li {
+		list-style: none;
+		line-height: 2;
+
+		.archive-date {
+			color: #999;
+		}
+
+		.archive-title {
+			font-weight: bold;
+		}
+
+	} //li
+
+}
+
+#search-page-title,
+#archive-page-title {
+	margin-bottom: 20px;
+}
+
+#search-page-title h3,
+#archive-page-title h3 {
+	margin-bottom: 0;
+	color: #999;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.no-results {
+	padding: 20px;
+}
+
+.no-results .entry-content {
+	padding: 20px 0;
+}
+

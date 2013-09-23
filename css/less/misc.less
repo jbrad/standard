@@ -1,0 +1,166 @@
+/*
+ * Main theme misc styles
+ *
+ * @since v3.2
+ *
+*/
+
+body * {
+	-ms-word-wrap: break-word; 
+	word-wrap: break-word;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.first { 
+	margin-left: 0 !important; 
+}
+
+.last {
+	margin-right: 0 !important;
+}
+
+.alignleft {
+	float: left;
+	margin: 0.5em 20px 0.5em 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0.5em 0 0.5em 20px;
+}
+
+.aligncenter {
+	display: block;
+	float: none; 
+	margin-top: 0.5em; 
+	margin-right: auto !important;
+	margin-bottom: 0.5em;
+	margin-left: auto !important; 
+}
+
+.alignnone {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+
+/* 
+ * override Bootstrap span class that was 
+ * causing issues with some post_class() tags 
+ */
+[class*="span"].post {
+    float: none;
+    margin-left: 0;
+}
+
+
+input[type="submit"] {
+	display: inline-block;
+	padding: 5px 14px 6px;
+	border: 1px solid #ccc;
+	border-bottom-color: #bbb;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #e6e6e6;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+	background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	background-repeat: no-repeat;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	color: #333;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	font-size: 13px;
+	line-height: normal;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+	cursor: pointer;
+	-webkit-transition: 0.1s linear all;
+	-moz-transition: 0.1s linear all;
+	-ms-transition: 0.1s linear all;
+	-o-transition: 0.1s linear all;
+	transition: 0.1s linear all;
+}
+
+input[type="submit"]:hover {
+  background-position: 0 -15px;
+  color: #333;
+  text-decoration: none;
+}
+
+input[type="submit"]:focus {
+  outline: 1px dotted #666;
+}
+
+input[type="text"] {
+	width: 95%;
+}
+
+
+table .label {
+	display: block;
+	border-radius: 0;
+	background: #f1f1f1;
+	color: #444;
+}
+
+table td.label a {
+	color: #444;
+	text-shadow: none;
+}
+
+.fademe img,
+a img {
+	opacity: 1;	
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
+}
+
+.fademe img:hover,
+a img:hover {
+	opacity: 0.5;
+}
+
+.form-allowed-tags code { 
+	float: left; 
+	margin: 8px 0 12px 0;
+}
+
+
+// inline grids
+
+.inline-grid { display: block; overflow: hidden; }
+.inline-grid>li { display: block; float: left; height: auto; }
+
+.inline-grid.two-up { margin-left: -4%; }
+.inline-grid.two-up>li { margin-bottom: 4%; margin-left: 4%; width: 46%;}
+.inline-grid.two-up>li:nth-child(2n+1) {clear: left;}
+
+.inline-grid.three-up { margin-left: -2%; }
+.inline-grid.three-up>li { margin-bottom: 2%; margin-left: 2%; width: 31.2%;}
+.inline-grid.three-up>li:nth-child(3n+1) {clear: left;}
+
+.inline-grid.four-up { margin-left: -2%; }
+.inline-grid.four-up>li { margin-bottom: 2%; margin-left: 2%; width: 23%;}
+.inline-grid.four-up>li:nth-child(4n+1) {clear: left;}
+
+.inline-grid.five-up { margin-left: -1.5%; }
+.inline-grid.five-up>li { margin-bottom: 1.5%; margin-left: 1.5%; width: 18.5%;}
+.inline-grid.five-up>li:nth-child(5n+1) {clear: left;}

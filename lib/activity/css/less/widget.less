@@ -1,0 +1,197 @@
+// import the mixin file to use the gradient and invert box-shadow
+@import "../../../../css/less/mixins.less";
+
+.tabbed-widget {
+    
+    .nav-tabs {
+    
+		margin: 0;
+		border: 0;	    
+	
+    } // .nav-tabs
+    
+    .tab-inner {
+    
+	    ul {
+	    
+		    li {
+				margin: 0;
+				padding: 0;
+				
+		    } // li
+		    
+	    } // ul;
+	    
+    } // .tab-inner
+    
+    .nav-tabs {
+    	width: 100%;
+	    
+	    > li {
+	    
+	    	&.active {
+		    	
+		    	> a {
+					border-color: 	#e4e4e4;
+					
+					/* IE10, IE9 */
+					background: 	#fff;
+			    
+					color: 			#444;
+					filter: none;
+					
+					&:hover {
+						color: #999;
+					}
+			    	
+		    	} // a
+		    	
+	    	} // .active
+	    	
+		    > a {
+				margin-right: 	0;
+				margin-left:	0;
+				padding: 		10px 0;
+				border: 				1px solid #eee;
+				border-bottom-width: 	0 !important;
+				background-color: 		#2c2c2c;
+				color: 			#999;
+				text-align: 	center;
+			    
+				font-size: 		80%; 
+			    
+			    &:hover {
+					margin: 0;
+			    
+					color: 	#fff; 
+					
+			    }
+				
+				.no_border_radius();
+				
+				.dark_gradient; // :hover
+			    
+		    } // a;
+		    
+	    } // li
+	    
+    } // .nav-tabs
+    
+    .tab-count-1 {
+
+    	> li.active {
+    		width: 100%;
+    		
+    		> a {
+				background-color: #2c2c2c;
+    		
+				color: #999;
+				.dark_gradient;
+    		
+    		} // a
+    		
+    	} // li.active
+    	
+    } // .tab-count-1
+    
+	.tab-count-2 {
+    	
+    	> li {
+	    	width: 50%;
+	    	
+    	} // > li
+    	
+	} // .tab-count-2
+	
+	.tab-count-3 {
+    	
+    	> li {
+	    	width: 33.333333333%;
+    	} // > li
+    	
+	} // .tab-count-3
+
+	.tab-count-4 {
+    	
+    	> li {
+	    	width: 25%;
+	    	
+    	} // > li
+    	
+	} // .tab-count-4	
+	
+	.tab-content {
+		display: 				block;
+		padding: 				10px 10px 10px;
+		width: 					auto;   
+		border: 				1px solid #e4e4e4;
+		border-top: 			0;
+		-webkit-border-radius:	0 0 4px 4px;
+		-moz-border-radius: 	0 0 4px 4px;
+		border-radius: 			0 0 4px 4px;
+		background: 			#fff;
+		
+		ul {
+		
+			margin: 0;
+			padding: 0;
+			
+			> li {
+				padding: 15px;
+				border-bottom: 1px solid #eee;
+				list-style: none;
+			} // li
+			
+			li {
+			
+				a {
+					color: 			#555;
+				
+					font-weight: 	bold;
+					font-size: 		12px;
+					line-height: 	1;
+					
+					&:hover {
+						text-decoration: underline;
+					} // :hover
+					
+				} // a
+				
+				span.latest-date {
+					
+					display: 	block;
+					color: 		#888;
+					font-style: italic;
+					font-size: 	11px;
+					
+				} // span.latest-date
+				
+				&:last-child {
+				
+					border-bottom: none;
+					
+				} // last-child
+				
+			} // li
+						
+		} // ul;
+		
+	} // .tab-content
+	
+	a.latest-post-tn,
+	a.popular-post-tn,
+	a.latest-comment-tn {
+		float: 				left;
+		margin: 			0 10px 0 0;
+		padding: 			2px;
+		width: 				50px;
+		height: 			50px;
+		
+		border: 			1px solid #eee;
+		background-color: 	white;
+		
+	}
+    
+    .box_sizing(); // .latest-post-tn, .popular-post-tn, .latest-comment-tn
+    
+} // .tabbed-widget

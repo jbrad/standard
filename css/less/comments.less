@@ -1,0 +1,271 @@
+//
+// Standard Comments and Pings
+// @since v3.2
+// 
+
+
+
+#pings, #no-comments {
+	padding: 20px;
+}
+
+#no-comments .title {
+	color: #444;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+
+#pings h3 {
+	margin-bottom: 20px;
+}
+
+#pings ol.pinglist li {
+	margin: 20px 0;
+}
+
+/* Comments */
+
+#comments {
+	margin-bottom: 20px;
+}
+
+#comments > h3 { 
+	padding: 20px 20px 0;
+	line-height: 1;
+}
+
+#comments > ol, #comments > ul {
+	margin: 0;
+	list-style: none;
+
+}
+
+#comments > ol > li, #comments > ul.children > li {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#comments .nopassword {
+	padding: 20px;
+}
+
+#comments .comment-container {
+	padding: 20px 20px;
+	border-bottom: 1px solid #eee;
+}
+
+
+#comments .bypostauthor > .comment-container {
+	border-right: 5px solid #202020;
+	background: #f9f9f9;
+}
+
+#comments .comment-container .avatar-holder {
+	width: 10%;
+	float: left;
+	
+		img.avatar {
+			padding: 2px;
+			border: 1px solid #eee;
+		}
+	
+}
+
+#comments .comment-container .comment-head {
+	padding-bottom: 10px;
+}
+
+#comments .comment-container .comment-entry {
+	margin-left: 2%;
+	width: 88%;
+	float: left;
+}
+
+#comments .comment-container .comment-entry .comment-text {
+	word-wrap: break-word;
+}
+
+#comments .comment-container .comment-entry .name 	{
+	color: #444;
+}
+
+#comments .comment-container .comment-entry .date {
+	color: #999;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 12px;
+}
+
+#comments .comment-container .comment-head span {
+	font-weight: bold;
+}
+
+/* Children Comments */
+
+#comments  ol ul.children {
+	list-style: none;
+}
+
+/* 3rd level */
+#comments > ol > li > ul.children {
+	margin-left: 20px;
+}
+
+#comments > ol > li > ul.children > li .comment-container {
+	border-top: 1px solid #f8f8f8;
+	border-left: 1px solid #eee;
+}
+
+/* 4th level */
+#comments > ol > li > ul > li > ul.children {
+	margin: 0 0 0 20px;
+}
+
+
+/* comment input */
+
+#respond {
+	padding: 20px;
+	position: inherit;
+	
+		h3#reply-title {
+			font-size: 18px;
+		}
+}
+
+.comment-container #respond {
+	padding: 20px 0 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#comment-form-avatar img {
+	width: 50px;
+	height: auto;
+}
+
+.pre-comment-avatar {
+	float: left;
+}
+
+.pre-comment-avatar #gravatar  {
+	padding: 4px;
+	border: 1px solid #e3e3e3;
+	background: #fff;
+}
+
+.pre-comment-avatar.admin-avatar {
+	margin-right: 10px;
+}
+
+#cancel-comment-reply-link { 
+	padding: 5px 8px;
+	font-size: 11px;
+}
+
+#commentform #comment-form-wrapper {
+	float: left;
+	width: 100%;
+}
+
+#commentform #comment-form-avatar {
+	float: left;
+}
+
+#commentform #comment-form-wrapper #comment-form-elements,
+#commentform #comment-form-wrapper #comment-form-elements-full {
+	float: right;
+}
+
+#commentform #comment-form-wrapper #comment-form-elements {
+	width: 84%;
+}
+
+#commentform #comment-form-wrapper #comment-form-elements-full {
+	width: 92%;
+}
+
+#comment-form-avatar {
+	padding: 2px;
+	border: 1px solid #eee;
+}
+
+#commentform .form-allowed-tags {
+	cursor: pointer;
+}
+
+#commentform pre {
+	display: none;
+	font-size: 10px;
+}
+
+#form-inputs { 
+	margin-bottom: 20px;
+}
+
+#commentform label {
+	float: left;
+	width: auto;
+	color: #777;
+	text-align: left;
+}
+
+#commentform .required {
+	float: left;
+	color: red;
+}
+
+#commentform input[type="text"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 5px 10px;
+	width: 100%;
+	height: 32px;
+}
+
+#commentform textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width:100%;
+}
+
+#commentform input[type="submit"] {
+	margin: 0 12px 10px 0;
+}
+
+.comment-notes, .comment-form-author, .comment-form-email, .comment-form-url, .comment-form-comment {
+	float: left;
+	width: 100%;
+}
+
+.comment-navigation {
+	padding: 20px;
+}
+
+.comment-navigation a {
+	color: #999;
+	opacity: 0.6;
+}
+
+.comment-navigation a:hover {
+	text-decoration: none;
+	opacity: 1;
+}
+
+.comment-navigation i {
+	opacity: 0.4;
+}
+
+.comment-prev-nav, .comment-prev-nav {
+	
+	float: left;
+}
+
+.comment-next-nav {
+	float: right;
+}

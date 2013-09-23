@@ -1,0 +1,22 @@
+{
+  "name": "standard",
+  "version": "3.3.4",
+  "description": "Standard is a sleek, exacting product designed for uncluttered and sophisticated presentation of your content on desktop and mobile devices.",
+  "author": "8BIT <http://8bit.io>",
+  "homepage": "http://8bit.io/standard",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/eightbit/standard.git"
+  },
+  "engine": "node >= 0.4.1",
+  "private": "true",
+  "devDependencies": {
+    "grunt-bower-task": "~0.2.3",
+    "grunt-contrib-uglify": "~0.2.x",
+    "grunt-contrib-jshint": "~0.6.x",
+    "grunt-contrib-watch": "~0.5.x",
+    "grunt-contrib-less": "~0.6.x",
+    "grunt-contrib-compress": "~0.5.2",
+    "grunt-contrib-imagemin": "~0.1.4"
+  }
+}

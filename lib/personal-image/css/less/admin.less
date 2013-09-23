@@ -1,0 +1,56 @@
+.standard-personal-image-wrapper {
+
+	.bio {
+		margin-top: 12px;
+	} // .bio
+	
+	label {
+		
+		display: 		block;
+		margin-bottom: 	6px;
+		
+	} // label
+	
+	.description {
+	
+		display: 	block;
+		margin-top: 5px;
+		
+		span {
+			font-weight: bold;
+		} // span
+		
+	} // .description
+	
+	.preview_image_container,
+	.preview_image {
+		
+		background: 	#fff url(fake-personal.jpg) no-repeat;
+		width: 			225px;
+		min-height: 	200px;
+		cursor:	 		pointer;
+		line-height: 	0;
+		
+		/* Adding floats for Firefox, but works for other browsers, too */
+		float: 			left;
+		margin-bottom: 	4px;
+			
+	} // .preview_image_container, .preview_image
+	
+} // .standard-personal-image-wrapper
+
+a.img_delete {
+	
+	color: 					red;
+	border-bottom-color: 	red;
+	text-decoration: 		none;
+	
+	&:hover {
+		
+		color: 					white;
+		background-color: 		red;
+		border-bottom-color:	red;
+		
+	} // hover
+	
+} // a.img_delete

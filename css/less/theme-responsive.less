@@ -1,0 +1,351 @@
+/* Media Queries for Standard viewports */
+
+/* Smartphones */
+@media (max-width: 480px) {
+
+	#hgroup {
+		text-align: center;
+	}
+
+	#hgroup > * {
+		float: none;
+	}
+
+	.imageyup #head-wrapper {
+		padding: 0;
+	}
+
+	#header-widget .widget_search {
+		box-sizing: border-box;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	#header.imageyup #logo #site-title a, #header.imageyup #logo #site-title {
+		font-size: 1.25em;
+		line-height: 1;
+	}
+
+	#header-widget .standard-billboard {
+		margin: 0 auto;
+		width: 92%;
+		text-align: center;
+	}
+
+	/* posts */
+	.post .thumbnail img {
+		width: 80px;
+		height: auto;
+	}
+
+	.post .post-title {
+		font-size: 2em;
+		line-height: 1.2;
+	}
+
+	.entry-content embed, .entry-content iframe, .entry-content object,
+	.entry-content p embed, .entry-content p iframe, .entry-content p object {
+		max-width: 100%;
+		height: 210px; /* Setting a height - Android displays correctly, iPhone was showing letterbox. */
+	}
+
+	.entry-content .gallery img {
+		max-width: 94%;
+	}
+
+	/* Post Comments */
+	.author-box-image img {
+		width: 50px;
+		height: auto;
+	}
+
+	.post.format-status .post-header .entry-content, .fullwidth .post.format-status .post-header .entry-content {
+		min-height: 60px;
+	}
+
+	/* post format video */
+	.format-video embed, .format-video iframe, .format-video object {
+	 	max-width: 100%;
+	}
+
+	/* post navigation */
+	#single-post-nav {
+
+		.pager {
+
+			span {
+				padding: 10px 0;
+				width: 100%;
+				float: none;
+				text-align: center;
+			}
+
+			.previous-page {
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+	/* archives pagination */
+	#archives-post-pager  {
+
+		li, a {
+			padding: 10px 0;
+			width: 100%;
+			float: none;
+			text-align: center;
+		}
+
+		.previous {
+			margin-bottom: 20px;
+			display: inline-block;
+		}
+
+	}
+
+	/* footer area */
+	#sub-floor #credit {
+		text-align: center;
+	}
+
+	/* comment form */
+	#comment-form-avatar img {
+	width: 20px;
+	height: auto;
+	}
+
+	/* sitemap tweaks */
+	#sitemap-authors li {
+		margin-right: 20px;
+	}
+
+
+	/* Standard Mobile grid */
+
+	.mobile-2 {
+		display: block;
+		overflow: hidden;
+		padding: 0;
+
+			li {
+				width: 48.93617021276595% !important;
+				display: block;
+				height: auto;
+				float: left !important;
+			}
+
+			li:nth-child(2n+2) {
+				float: right !important;
+			}
+
+	}//mobile-2
+
+}
+
+/* tablet and mobile */
+@media (max-width: 979px) {
+
+
+	.imageyup #hgroup.no-logo {
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.imageyup #hgroup.has-logo {
+		position: relative;
+		margin: 0 0 20px 0 !important;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.imageyup #hgroup > * {
+		float: none;
+	}
+
+
+	#header-widget .standard-ad-billboard {
+		margin-top: 10px;
+	}
+
+	/* make the menu pretty while in dropdown */
+	#social-networking {
+		position: absolute;
+		top: 5px;
+		right: 10px;
+		margin-right: 0;
+	}
+
+	.social-icons.nav {
+		display: inline-block;
+	}
+
+	.social-icons.nav > li {
+		float: left;
+	}
+
+	.social-icons.nav > li {
+		margin-left: 12px;
+	}
+
+	.navbar {
+
+			 ul.nav-menu {
+				margin-top: 15px;
+				padding-top: 10px;
+				border-top: 1px solid #444;
+
+				> li {
+
+						a {
+							padding: 10px 15px;
+
+							 .caret {
+								 display: none;
+							 }
+						}
+				}//li
+			}//nav-mneu
+	}//navbar
+
+	.nav-collapse .dropdown-menu {
+		display: block;
+		background: #282828;
+
+
+		//if it's on the current page
+		li.active a {
+			color: #fff;
+
+			&:hover {
+				color: #fff;
+			}
+		}//li.active
+
+		> li a {
+			 box-shadow: none;
+			 border: none;
+
+			 &:hover {
+				 color: #fff;
+			 }
+
+		 }// li a
+	}// dropdown-menu
+
+
+	/* post format aside */
+	.format-aside {
+		.entry-content {
+			padding: 40px 40px 20px 80px;
+		}
+
+		.aside-date {
+			left: -10px;
+		}
+	}
+
+
+	/* Comment form */
+	#comments .comment-container .comment-entry {
+		margin-left: 5%;
+		width: 85%;
+	}
+
+}
+
+/* mobile to tablet */
+@media only screen and (max-width: 767px) {
+
+	#header.imageyup #logo #site-title a, #header.imageyup #logo #site-title {
+		font-size: 1.25em;
+		line-height: 1;
+	}
+
+	#header-widget .standard-billboard {
+		margin: 0 auto;
+		margin-top: 34px;
+		width: 92%;
+		text-align: center;
+	}
+
+
+	body {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.navbar-fixed-top {
+		margin: 0;
+	}
+
+	.navbar .nav {
+	 	margin-left: 0;
+	}
+
+	.container {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	#footer {
+
+		#sub-floor {
+
+			.container {
+				padding-right: 0;
+				padding-left: 0;
+			}
+
+			#footer-links {
+				float: none;
+				padding: 0 20px;
+			}
+
+			#credit {
+				float: none;
+				padding: 0 20px;
+				text-align: center;
+			}
+		}//sub-floor
+
+	}//footer
+
+	/* post format status */
+	.post.format-status .post-avatar {
+		float: left;
+		margin: 0 20px 20px 0;
+	}
+
+}
+
+/* default desktop */
+@media (min-width: 980px) {
+
+	.menu-header-container {
+		width: 680px;
+	}
+
+	/* Position the submenus. This is toggled with theme.js */
+	.submenu-show {
+		position:absolute;
+		left:100%;
+		display:block;
+		margin-top: -25px !important;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+	/* Hide the submenus. This is toggled with theme.js. */
+	.submenu-hide {
+		position: relative;
+		top: auto;
+		display: none !important;
+		float:right;
+	}
+
+}

@@ -1,0 +1,152 @@
+//
+// Standard Header
+// @since v3.2
+// 
+
+.navbar-fixed-top {
+	position: relative;
+}
+
+.navbar-inner, .navbar .fill {
+	border-bottom: none;
+	background-color: #202020;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(32, 32, 32)), to(rgb(28, 28, 28)));
+	background-image: -webkit-linear-gradient(top, rgb(32, 32, 32), rgb(28, 28, 28));
+	background-image: -moz-linear-gradient(top, rgb(32, 32, 32), rgb(28, 28, 28));
+	background-image: -o-linear-gradient(top, rgb(32, 32, 32), rgb(28, 28, 28));
+	background-image: -ms-linear-gradient(top, rgb(32, 32, 32), rgb(28, 28, 28));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#202020', EndColorStr='#1c1c1c');
+}
+
+.navbar .nav > li > a {
+	padding: 11px 10px 10px;
+	color: #999;
+	text-shadow: none;
+}
+
+.navbar .nav > li > a:hover {
+	color: #fff;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	background-color: transparent;
+	color: #fff;
+}
+
+.navbar .nav {
+	margin-left: -10px;
+}
+
+#social-networking {
+	float: right;
+	margin-right: -10px;
+}
+
+.navbar .social-icons > li {
+	margin: 12px 0 12px 12px;
+	padding: 0;
+	line-height: 0;
+}
+
+.navbar .social-icons > li a {
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
+#menu-under-header {
+	z-index: auto;
+	margin: 0;
+}
+
+/* Navbar collapse styles */
+
+.navbar {
+
+	.btn-navbar {
+		float: left;
+	}
+	
+	//dropdown
+	.dropdown-menu {
+	  top: 100%;
+	  z-index: 1000;
+	  margin-top: 0;
+	  padding: 4px 0;
+	  min-width: 160px;
+	  border-color: #E4E4E4;
+	  border-top-width: 0;
+	  -webkit-border-radius: 0 0 4px 4px;
+	  -moz-border-radius: 0 0 4px 4px;
+	  border-radius: 0 0 4px 4px;
+	  -webkit-box-shadow:none;
+	  -moz-box-shadow:none;
+	  box-shadow: none;
+	  list-style: none;
+	}
+	
+	.dropdown .caret {
+		margin-left: 5px;
+	}
+		
+	
+}//navbar
+
+/* Dropdown styling */
+
+.navbar .nav .dropdown-toggle .caret, .navbar .nav .open.dropdown .caret {
+	border-top-color: inherit;
+	border-bottom-color: inherit;
+}
+
+/* Enable Bootstrap dropdowns on hover */
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;  
+}
+
+/* 3rd level dropdown */
+.navbar .dropdown-menu:hover .dropdown-menu {
+	border-top-width: 1px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.navbar .dropdown-menu .dropdown-menu::after, .navbar .dropdown-menu .dropdown-menu::before {
+	display: none;
+}
+
+/* dropdown indicator */ 
+.navbar .dropdown-menu .caret {
+	position: absolute;
+	right: 5px;
+	margin-left: 5px;
+	border-top-color: #888 !important;
+	border-right-width: 0px !important;
+	border-bottom-color: #888 !important;
+}
+
+.navbar .dropdown-menu a {
+	padding: 8px 15px;
+	border-bottom: 1px solid #e4e4e4;
+	color: #888;
+}
+
+.navbar .dropdown-menu li:last-child > a {
+	border-bottom: 0;
+}
+
+.navbar .dropdown-menu > li a:hover, .navbar .dropdown-menu > li.active a:hover {
+	background: none;
+	color: #222;
+}
+
+.navbar .dropdown-menu .active > a {
+	background: none;
+	color: #222;
+}
+
+.dropdown.open .dropdown-toggle {
+	background: none;
+	color: #888;
+}

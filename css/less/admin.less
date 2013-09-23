@@ -1,0 +1,276 @@
+/* 
+ *
+ * all admin styles and dashboard changes
+ *
+ * @since v3.0
+ *
+*/
+
+@import "admin.social-options.less";
+@import "admin.header.less";
+
+input:-moz-placeholder {
+	color:	#777;
+}
+
+#standard_theme_left_sidebar_layout, 
+#standard_theme_right_sidebar_layout,
+#standard_theme_full_width_layout {
+	vertical-align: top;
+	margin: 15px 5px 0 0;
+}
+
+img.social_option {
+	vertical-align: top;
+	margin: 4px 0 0 4px;
+}
+
+.standard-widget-top, #post_level_seo .hndle, #post_level_layout .hndle {
+	color: #d5d5d5 !important;
+	border: 1px solid #585858 !important;
+	text-shadow: 0 1px 0 #111 !important;
+	box-shadow: none !important;
+	background-color: #393939 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(57, 57, 57)), to(rgb(36, 36, 36))) !important;
+	background-image: -webkit-linear-gradient(top, rgb(57, 57, 57), rgb(36, 36, 36)) !important;
+	background-image: -moz-linear-gradient(top, rgb(57, 57, 57), rgb(36, 36, 36)) !important;
+	background-image: -o-linear-gradient(top, rgb(57, 57, 57), rgb(36, 36, 36)) !important;
+	background-image: -ms-linear-gradient(top, rgb(57, 57, 57), rgb(36, 36, 36)) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#393939', EndColorStr='#242424') !important;
+}
+
+.widgets-holder-wrap .standard-widget-top {
+	margin-top: -1px;
+}
+
+.standard-widget-top .widget-title {
+	background-image: url(img/icn-standard.png);
+	background-repeat: no-repeat;
+	padding-left: 35px;
+}
+
+#post_level_seo .hndle span, #post_level_layout .hndle span {
+	background: url(../images/icn-standard-small.png) left center no-repeat;
+	padding-left: 25px;
+}
+
+/* Standard admin options styles */
+
+#standard-options div.updated, 
+#standard-options .message,
+#standard-post-editor {
+	color: #444;
+	background-color: #D0EDF3;
+	border-color: transparent;
+	margin: 15px 0 10px;
+}
+
+#standard-options #standard-info {
+	float: left;
+	width: 65%;
+	margin-right: 10px;
+	padding: 15px 15px 15px 0;
+}
+
+#standard-options #icon-themes {
+	background: url(img/standard-logo.png) no-repeat;
+	width: 102px;
+	height: 102px;
+	margin-right: 15px;
+}
+
+#standard-options #standard-title {
+	font-size: 22px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#standard-options #standard-info p {
+	color: #7b7b7b;
+	font-size: 16px;
+	line-height: 1.2;
+	margin-top: 5px;
+	font-weight: 200;
+}
+
+#standard-options #standard-title span {
+	color: #999;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: lowercase;
+	font-style: italic;
+	letter-spacing: 0;
+}
+
+#standard-options #standard-options-links {
+	border-left: 1px solid #eee;
+	padding: 20px;
+	float: right;
+	margin-top: 25px;
+}
+
+#standard-options #standard-options-links a {
+	color: #2e2e2e;
+	display: block;
+	overflow: hidden;
+	padding-left: 20px;
+	text-decoration: none;
+	line-height: 16px;
+}
+
+#standard-options #standard-options-links a:hover {
+	text-decoration: underline;
+}
+
+#standard-options .standard-docs {
+	background: url(img/icn-wrench.png) left center no-repeat;
+}
+
+#standard-options .standard-support {
+	background: url(img/icn-blog.png) left center no-repeat;
+}
+
+#standard-options .standard-blog {
+	background: url(img/icn-heart.png) left center no-repeat;
+}
+
+#standard-options form {
+	margin-top: 20px;
+}
+#standard-options .form-table {
+	border-top: 1px solid #eee;
+	margin: 20px 0;
+}
+
+#standard-options h3 {
+	margin: 1em 0 0;
+}
+
+#standard-options .form-table th, .form-wrap label {
+	font-weight: bold;
+	border-right: 1px solid #eee;
+}
+
+#standard-options #logo_preview_container {
+	background: #f0f0f0;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 190px;
+	min-height: 40px;
+	overflow: hidden;
+}
+
+#standard-options #logo_preview_container > img {
+	width: 100%;
+	height: auto;
+}
+
+#standard-options #fav_icon_preview_container > img {
+	width: auto;
+	max-width: 64px;
+	height: auto;
+	max-height: 64px;
+}
+
+
+#standard-options .social-icons-wrapper {
+	margin-top: 10px;
+}
+
+#standard-options .social-icons-wrapper h3 {
+	margin: 0;
+}
+
+#standard-options form .submit {
+	float: left;
+	margin: 0 8px 0 0;
+	padding: 0;
+}
+
+#standard-options input[disabled=disabled] {
+	color: #ccc;
+}
+
+/* Standard post editor notification styles */
+
+#standard-post-editor {
+	padding: 0.3em 0.6em;
+	border-radius: 3px;
+}
+
+#standard-post-editor p {
+	margin: .5em 0;
+	padding: 2px;
+}
+
+hr {
+	clear: both;
+}
+
+/* Link Format Styles */
+
+.standard-widget-top, 
+#link_format_url .hndle, 
+#link_format_url .hndle {
+	color: #d5d5d5 !important;
+	border: 1px solid #585858 !important;
+	text-shadow: 0 1px 0 #111 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(57, 57, 57)), to(rgb(36, 36, 36))) !important;
+	background-image: -webkit-linear-gradient(top, rgb(57, 57, 57), rgb(36, 36, 36)) !important;
+	background-image: -moz-linear-gradient(top, rgb(57, 57, 57), rgb(36, 36, 36)) !important;
+	background-image: -o-linear-gradient(top, rgb(57, 57, 57), rgb(36, 36, 36)) !important;
+	background-image: -ms-linear-gradient(top, rgb(57, 57, 57), rgb(36, 36, 36)) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#393939', EndColorStr='#242424') !important;
+	box-shadow: none !important;
+	background-color: #393939 !important;
+}
+
+#link_format_url .hndle span, 
+#link_format_url .hndle span {
+	background: url(../images/icn-standard-small.png) left center no-repeat;
+	padding-left: 25px;
+}
+
+#standard_link_url_field {
+	width: 100%;
+}
+
+//WP Core changes
+
+//disabled style on Header section
+table.form-table.disabled {
+	color: #aaa;
+	
+		th, label, input {
+		color: #a9a9a9;
+	}
+	
+}
+
+
+// media queries sizes
+@media (max-width: 650px) {
+
+	#standard-options #standard-info {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+	#standard-options #standard-options-links {
+		float: none;
+		border-left: none;
+		border-top: 1px solid #eee;
+		padding: 5px 0;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	#standard-options #standard-options-links ul li {
+		display: inline;
+	}
+	#standard-options #standard-options-links ul li a {
+		display: inline-block;
+		margin-left: 10px;
+	}
+	
+}

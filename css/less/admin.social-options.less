@@ -1,0 +1,194 @@
+
+	.social-icons-wrapper {
+	/* notifications */ 
+	.hidden.alert {
+		opacity: 0;
+		display: block;
+	}
+	
+	.alert {
+		opacity: 1;
+		width: 96%;
+		padding: 8px 0;
+		margin-bottom: 10px;
+		text-align: center;
+		color: #C09853;
+		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+		background-color: #FCF8E3;
+		border: 1px solid #FBEED5;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-transition: opacity .25s ease-in-out;
+		-moz-transition: opacity .25s ease-in-out;
+		-o-transition: opacity .25s ease-in-out;
+		-ms-transition: opacity .25s ease-in-out;
+		transition: opacity .25s ease-in-out;
+	}
+	
+	.alert-info {
+		color: #545454;
+		background-color: #d0edf3;
+		border-color: transparent;
+		font-style: italic;
+	}
+	
+	.icon {
+		display: inline-block;
+		width: 14px;
+		height: 14px;
+		line-height: 14px;
+		vertical-align: text-top;
+		background-image: url(img/glyphicons-halflings.png);
+		background-position: 14px 14px;
+		background-repeat: no-repeat;
+	}
+	
+	.icon-warning {
+		background-position: -144px -120px;
+	}
+	
+	.icon-trash {
+		background-position: -456px 0;
+	}
+} //.social-icons-wrapper
+
+.social-icons-wrapper img {
+	cursor: pointer;
+	max-width: 32px;
+	max-height: 32px;
+}
+
+.social-icons-wrapper img:active {
+	cursor: move;
+}
+
+
+.social-icons-wrapper ul { 
+	float: left;
+	width: 50%;
+	height: 25px;
+} 
+
+.social-icons-wrapper ul li {
+	margin: 6px 5px 0 5px;
+	min-width: 16px;
+	width: auto;
+	height: auto;
+	line-height: 1;
+	display: inline-table;
+	vertical-align: middle;
+}
+
+#social-icons-active {
+	float: left;
+	width: 48%;
+	margin: 12px 0 12px 0;
+}
+
+#social-icons-active .active-icon {
+	opacity: 0.4;
+}
+
+#social-icons-active #active-icon-url {
+	float: left;
+	width: 90%;
+	margin: 10px;
+}
+
+#active-icon-url label {
+	margin-right: 12px;
+}
+
+#social-icons-available {
+	float: right;
+	width: 48%;
+	margin: 12px 0 12px 0;
+}
+
+#available-icons ul {
+	height: 62%;
+	overflow: auto;
+}
+
+#social-icons-available #available-icons,
+#social-icons-active #active-icons {
+	border: 1px solid #dfdfdf;
+	border-top: 0;
+	min-height: 215px;
+	background: #FCFCFC;
+	float: left;
+	width: 99.9%;
+	position: relative;
+}
+
+#social-icons-available span {
+	margin-left: 8px;
+}
+
+#social-icons-available #available-icons p,
+#social-icons-active #active-icons p {
+	margin: 20px 0 10px 10px;
+}
+
+#social-icon-max {
+	margin-left: 10px;
+	float: left;
+}
+
+#social-icons-active #active-icons ul {
+	width: 90%;
+	margin: 10px 10px 5px;
+	padding: 10px;
+	border: 1px dashed #e0e0e0 !important;
+	display: table;
+}
+
+#social-icons-available #available-icons ul {
+	width: 60%;
+	min-height: 124px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px dashed #e0e0e0 !important;
+}
+
+#social-icons-available #available-icons ul:hover,
+#social-icons-active #active-icons ul:hover {
+	background: #fefefe;
+}
+
+#social-icons-operations {
+	float: left;
+}
+
+#social-icons-available .button {
+	margin-top: 12px;
+}
+
+#social-icons-available #delete-icons {
+	margin-top: 10px;
+	padding: 10px;
+	float: left;
+	width: 20%;
+	background: #f0f0f0;
+	text-align: center;
+	box-shadow: inset 0px 0px 8px rgba(0,0,0,0.26);
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+
+
+#social-icons-available #delete-icons i {
+	margin: 10px 0;
+}
+
+#social-icons-available {
+	margin-right: 24px;
+}
+
+#social-icons-available ul li {
+	float: left;	
+	min-width: 16px;
+	min-height: 16px;
+	height: 48px;
+	width: auto;
+}

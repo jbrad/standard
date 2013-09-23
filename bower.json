@@ -1,0 +1,21 @@
+{
+  "name": "standard",
+  "version": "3.3.5",
+  "dependencies": {
+    "twitter": "2.3.2",
+    "fitvids": "*",
+    "js-md5": "*"
+  },
+  "exportsOverride": { 
+    "twitter": {
+      "../css/lib/less": ["less/*.less"],
+      "../js/lib": ["js/*.js"]
+    },
+    "fitvids": {
+	  "../js/lib": ["jquery.fitvids.js"]
+    },
+    "js-md5": {
+	  "../js/lib": ["js/md5.js"]
+    }
+  }
+}

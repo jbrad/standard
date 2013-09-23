@@ -1,0 +1,106 @@
+@import '../../../../css/less/mixins.less';
+.si-wrapper {
+	.box_sizing;
+	.box_shadow;
+	
+} // .si-wrapper
+
+.si-total {
+	padding: 10px 0 8px;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	background-color: #f8f8f8;
+	.inset_box_shadow;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	.light_gradient;
+	
+} // .si-total
+
+.si-total-number {
+	margin-bottom: 	2px;
+	color: 			#454545;
+	letter-spacing: 1px;
+	font-weight: 	900;
+	font-size: 		32px;
+	line-height: 	1;
+	
+} // .si-total-number
+
+.si-total-title {
+	color: 			#888;
+	font-weight: 	normal;
+	font-style: 	italic;
+	font-size: 		12px;
+	
+} // .si-total-title
+
+.si-individual {
+	padding: 	10px 0 8px;
+	border: 	1px solid #e0e0e0;
+	background: #fff;
+	
+	ul {
+		display: 		block; 
+		overflow: 		hidden;
+		margin-left: 	-2%;
+		
+		ul {
+			
+		} // ul
+		
+		li {
+			
+			a {
+				
+				display: inline-block;
+				overflow: hidden;
+				padding: 0 0 0 26px;
+				height: 18px;
+				background: url(lib/influence/css/icn-social-sprites.png) 0 0 no-repeat;
+				color: #999;
+				font-weight: bold;
+				font-size: 16px;
+				
+				&:hover {
+					color: #b6b6b6;
+				} // :hover
+				
+			} // a;
+			
+		} // li
+		
+		> li {
+		
+			display: 		block; 
+			float: 			left; 
+			margin-bottom: 	0;
+			margin-left: 	2%; 
+			width: 			46%; 
+			height: 		auto;
+			text-align: 	center;
+			
+			&:nth-child(3n+1) {
+			
+				clear: 			left;
+				border-right: 	1px solid #eee;
+				
+			} // :nth-child(3n+1)
+			
+		} // li;
+
+	} // ul
+	
+	.si-twitter {
+		a {
+			background-position: 0 0;
+		} // a
+	} // .si-twitter
+	
+	.si-facebook {
+		a {
+			background-position: 0 -27px;
+		} // a
+	} // .si-facebook;
+	
+} // .si-individual 
